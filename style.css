@@ -2,95 +2,51 @@
 @import url('./Vivaldi_Italics.ttf');
 
 
-body{
+  body{
    
     background-image: url("./bg.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 120%;
+    background-size: 100% 140%;
 
 }
 
-div.row{
-  text-align:center;
-}
-.radio-inline {
+
+.dot{
     background-color: #246057;
     border-radius: 25px ;
-     height: 50px;
+     height: 40px;
     width: 180px;
     color: gold;
-    padding: 3px 3px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
-    margin: 30px 5px;
+    margin: 5px;
    
 }
 
-input[type=text], input[type=password] {
-    width: 80%;
-    border-radius: 20px ;
-    padding: 12px 20px;
-    margin: 8px 8px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    background-color: #246057;
-    text-align: center;
 
 
-}
-input[type=radio]{
-  transform:scale(1.5);
-  margin:10px;
-}
 
-h3{
+p{
 
   color: gold;
   font-family: 'Vivaldi' , Vivaldi_Italics;
-  font-size: 35px;
+  font-size: 150%;
+  
   
 }
 h2{
   color: gold;
   font-family: 'Vivaldi' , Vivaldi_Italics;
-  font-size: 60px;
+  
 }
-.col-xl-2{
-           font-size: 200px;
-}
-button[type="submit"]{
 
-   border-radius: 20px ;
-    padding: 12px 20px;
-    margin: 8px 8px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    background-color: #246057;
-    text-align: center;
-    color: gold;
 
 
 }
-button[type="link"]{
-
-   border-radius: 20px ;
-    padding: 12px 20px;
-    margin: 8px 8px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    background-color: #246057;
-    text-align: center;
-    color: gold;
-
-
-}
- .navbar #myNavbar{
-   position: absolute;
+div.navbar{
+   position:relative;
     bottom: 0;
     right: 20px;
     width: 580px;
@@ -106,164 +62,52 @@ button[type="link"]{
 }
  .abc{
 
-  padding-right: 20px;
- 
+  margin-right: 2%;
+  font-size: 110%;
   font-family: 'Vivaldi' , Vivaldi_Italics;
   color: gold;
-  font-size:120%;
+  
 }
 .bcd{
 
-  padding-right: 20px;
-  padding-left: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
+  font-size: 110%;
   font-family: 'Vivaldi' , Vivaldi_Italics;
   color: gold;
-  font-size:120%;
+ 
 }
 .cde{
 
-  padding-left: 20px;
+  margin-left: 2%;
+  font-size:110%;
   font-family: 'Vivaldi' , Vivaldi_Italics;
   color: gold;
-  font-size:120%;
-}
-
-
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-  .responsive{
-    width: 10%;
-    height: 10%;
-  }
-  h3{
-    font-size: 30px;
-  }
-  .abc , .bcd , .cde{
-font-size:100%;
-}
-.navbar #myNavbar{
-   position: absolute;
-    bottom: 0;
-    right: 0px;
-    width: 96%;
-    height: 40px;
-  border-top: 4px solid  #246057;
- text-align: center;
- padding:1px 1px;
- transform: translateY(50px);
- font-size: 10px;
-
- }
- .radio-inline {
-    background-color: #246057;
-    border-radius: 25px ;
-     height: 40px;
-    width: 120px;
-    color: gold;
-    padding: 5px 1px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 40px 2px;
-
-  }
-  input[type=radio]{
-  transform:scale(1);
-  margin:1px;
-}
-  .response{
-    width: 25%;
-    height: 50%;
-  }
-}
-@media (max-width: 768px) {
-   .responsive{
-    width: 10%;
-    height: 10%;
-  }
-  h3{
-    font-size: 30px;
-  }
-  .abc , .bcd , .cde{
-font-size:100%;
-}
-.navbar #myNavbar{
-   position: absolute;
-    bottom: 0;
-    right: 0px;
-    width: 96%;
-    height: 40px;
-  border-top: 4px solid  #246057;
- text-align: center;
- padding:1px 1px;
- transform: translateY(50px);
- font-size: 10px;
-
- }
- .radio-inline {
-    background-color: #246057;
-    border-radius: 25px ;
-     height: 40px;
-    width: 120px;
-    color: gold;
-    padding: 5px 1px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 40px 2px;
-
-  }
-  input[type=radio]{
-  transform:scale(1);
-  margin:1px;
-}
-  .response{
-    width: 25%;
-    height: 50%;
-  }
   
 }
-@media (max-width: 576px) {
-  
+input[type=text], input[type=password] {
+    width: 80%;
+    border-radius: 20px ;
+    padding: 9px 15px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #246057;
+    text-align: center;
+}
+button[type="submit"]{
+
+   border-radius: 20px ;
+   margin: 20px 8px;
+   border: 1px solid #ccc;
+   background-color: #246057;
+   text-align: center;
+   color: gold;
+  }
+div.row{
+  text-align: center;
 }
 
-
-/*---Firefox Bug Fix --*/
-
-
-/*--- Fixed Background Image --*/
-
-/*--- Bootstrap Padding Fix --*/
-
-
-
-
-
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
-
-
-
-
-
-
-
+ 
 
